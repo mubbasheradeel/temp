@@ -22,17 +22,17 @@ class AddTest extends \PHPUnit_Framework_TestCase
      * AddTest constructor.
      * @test
      */
-    public function addTest()
+    public function should_test_add()
     {
         $this->model = new Add();
-        $this->assertEquals($this->model->add(1,2 ),3);
+        $this->assertEquals($this->model->add(1,2 ),23);
        
     }
 
     /**
      * @test
      */
-    public function minusTest()
+    public function should_test_minus()
     {
         $this->model = new Add();
         $this->assertEquals($this->model->add(1,1 ),2 );
