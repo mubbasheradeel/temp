@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Symfony DependencyInjection Component Test Suite" tests="1" assertions="1" failures="0" errors="0" time="0.000206">
-    <testsuite name="AddTest" file="C:\wamp\www\jenkin-temp\Test\AddTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.000206">
-      <testcase name="addTest" class="AddTest" file="C:\wamp\www\jenkin-temp\Test\AddTest.php" line="25" assertions="1" time="0.000206"/>
+  <testsuite name="Symfony DependencyInjection Component Test Suite" tests="1" assertions="1" failures="0" errors="0" time="0.000193">
+    <testsuite name="AddTest" file="C:\wamp\www\jenkin-temp\Test\AddTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.000193">
+      <testcase name="addTest" class="AddTest" file="C:\wamp\www\jenkin-temp\Test\AddTest.php" line="25" assertions="1" time="0.000193"/>
     </testsuite>
   </testsuite>
 </testsuites>

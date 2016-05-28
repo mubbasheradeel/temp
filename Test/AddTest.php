@@ -25,9 +25,18 @@ class AddTest extends \PHPUnit_Framework_TestCase
     public function addTest()
     {
         $this->model = new Add();
-        $this->assertEquals($this->model->add(1,2 ),3);
 
+           $this->assertEquals($this->model->add(1,2 ),33);
+       
+    }
 
+    /**
+     * @test
+     */
+    public function minusTest()
+    {
+        $this->model = new Add();
+        $this->assertEquals($this->model->add(1,1 ),2 );
     }
 
 }
